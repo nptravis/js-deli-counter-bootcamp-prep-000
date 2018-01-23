@@ -18,14 +18,14 @@ var katzDeliLine = [];
 
 
 	function currentLine(katzDeliLine) {
-    	var line = 0
+    	var line = 0;
 
      while (line < katzDeliLine.length); {
         return ("The line is currently " + (line + 1) + ". " + katzDeliLine[line]);
   			line++;
       }
 
-		if (katzDeliLine.length == 0) {
-      return "The line is currently empty."
+		if (katzDeliLine.length === 0) {
+      return "The line is currently empty.";
 			}
 	}
